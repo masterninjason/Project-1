@@ -1,0 +1,116 @@
+\documentclass{uioposter}
+
+
+\usepackage[figwidth = 0.98\linewidth]{todonotes}  % Dummy image (and more!)
+\usepackage[absolute, overlay]{textpos}% Figure placement
+\setlength{\TPHorizModule}{\paperwidth}
+\setlength{\TPVertModule}{\paperheight}
+
+
+\title{Project \#1}
+\author
+{%
+    AKA. 3 way Duel
+    \and
+    AKA. Source Duels
+    \and
+    AKA. Ninjason's unnamed project
+}
+%% Optional:
+\institute
+{
+    3 Players
+    \and
+    5-10 minutes
+    \and
+    ages 10?+ idk
+}
+% Or:
+%\institute{Contact information}
+
+
+%% Remove footline:
+\setbeamertemplate{footline}{}
+
+
+\begin{document}
+\begin{frame}
+\begin{columns}[onlytextwidth]
+
+
+\begin{column}{0.5\textwidth - 1.5cm}
+
+    \begin{block}{Terminology}
+        To get started, lets go over some basic terminology that may be used in describing characters abilities
+        \vspace{2ex}
+        \begin{block}{Place / Move}
+            Moving a weapon is when it follows a path of empty spaced, if a space it would need to travel through has a weapon, that would block it from attacking any spaces further down the chain, this also applies to characters, you cannot attack the second character in a weapons movement if it must pass through a first.
+            \\
+            Placing a weapon can be done regardless of any clear path.
+        \end{block}
+        \vspace{-3ex}
+        \begin{block}{Swing}
+            swinging a weapon is when it moves a number of spaces remaining adjacent to you, for example, a swing of 3 spaces can reach exactly the opposite side of your character
+        \end{block}
+        \vspace{-3ex}
+        \begin{block}{Diagonal}
+            A Diagonal space is a space that is not directly adjacent, but adjacent to 2 of the adjacent spaces... a space that is 2 spaces away, but not in a straight line
+        \end{block}
+    \end{block}
+    
+    \begin{alertblock}{Universal Moves}
+        Reminder: all characters have access to the basic move and jump unless otherwise stated
+        \\
+        \\
+        Basic Move: move 1 space, then place your weapon in any adjacent space
+        \\
+        \\
+        Jump: leave you weapon in the same space, and move your character to the opposite side of it
+    \end{alertblock}
+
+    \begin{alertblock}{Separated Weapons}
+        if your weapon is not adjacent to you, unless otherwise stated by a character, you cannot us it, it stays in whichever space it lands until you move adjacent to it again\\
+        If an opponents weapon is separated, that space is considered occupied like normal, except for moving directly into with a basic move, in which case move the weapon to an adjacent empty space (owners choice)
+    \end{alertblock}
+
+    
+\end{column}
+
+
+\begin{column}{0.5\textwidth - 1.5cm}
+
+    \begin{exampleblock}{Character: Short Sword}
+        Attack staying in the same spot, knocking out a player by moving your weapon in their space, you may "swing" your weapon upto 2 spaces, you may also attack using the jump ability, knocking out an opponent if they are where you land on a jump.
+    \end{exampleblock}
+
+    \begin{exampleblock}{Character: Boomerang}
+        Attack moving your weapon around all the adjacent hexes of one of the hexes adjacent to both you and your weapon. attacking the first opponent it lands on
+    \end{exampleblock}
+
+    \begin{exampleblock}{Character: Hammer}
+        Attack placing your weapon in one of the 3 adjacent spaces opposite your weapon.\\
+        Also may attack moving into the space containing your weapon, then placing your weapon in the next space in a straight line.
+    \end{exampleblock}
+
+    \begin{exampleblock}{Character: Dagger}
+        Attack by jumping over an opponent, placing your weapon in their space.\\
+        you may also jump over opponent's weapons, leaving your weapon behind if it was adjacent to you.
+    \end{exampleblock}
+
+    \begin{exampleblock}{Character: Spear}
+        You may attack with a Jump, or jumping, then placing your weapon in the next space in the same direction. (this is still a movement and does not require to be a successful attack)\\
+        you may also attack by simply moving into the space containing your weapon, then placing your weapon in the next space in a straight line or diagonal to you from your starting position.
+    \end{exampleblock}
+
+    \begin{exampleblock}{Character: Lance}
+        Attack moving your weapon and character in the same direction, where your weapon lands on an opponent.
+    \end{exampleblock}
+
+\end{column}
+
+
+\end{columns}
+
+
+\end{frame}
+\end{document}
